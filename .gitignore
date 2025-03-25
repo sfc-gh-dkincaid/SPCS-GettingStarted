@@ -1,0 +1,6 @@
+.venv
+.env
+__pycache__
+Makefile
+streamlit.yaml
+docker-compose-placeholder.yaml
