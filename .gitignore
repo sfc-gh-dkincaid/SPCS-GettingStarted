@@ -2,5 +2,5 @@
 .env
 __pycache__
 Makefile
-streamlit.yaml
+streamlit-placeholder.yaml
 docker-compose-placeholder.yaml

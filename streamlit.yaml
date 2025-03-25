@@ -1,0 +1,14 @@
+spec:
+  containers:
+    - name: streamlit
+      image: [account].registry.snowflakecomputing.com/spcs_playground/public/images/streamlit_spcs
+      env:
+        service_name: MyEnvVariablePlaceholder
+  endpoints:
+    - name: streamlit
+      port: 8501
+      public: true
+serviceRoles:
+- name: app
+  endpoints:
+  - streamlit
